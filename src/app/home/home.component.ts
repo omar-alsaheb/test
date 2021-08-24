@@ -19,7 +19,7 @@ export class HomeComponent implements OnInit {
   volumeInfo: VolumeInfo[] = [];
   @ViewChild('search')
   search!: ElementRef;
-  searchEl!: string;
+  searchEl: string='';
 
   ngOnInit(): void {
 
